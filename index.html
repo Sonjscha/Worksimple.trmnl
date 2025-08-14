@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Basis Markup</title>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+   <p><table id="gebuchte Zeiten letzter Monat" border="1">
+        <tr>
+            <th>nicht abrechenbar</th>
+            <th>Vertrag</th>
+            <th>Auftrag</th>
+            <th>verfügbare Arbeitstage</th>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>19</td>
+            <td>18</td>
+            <td>17</td>
+        </tr>
+    </table> </p> 
+
+    <p><table id="gebuchte Zeiten dieser Monat" border="1">
+        <tr>
+            <th>nicht abrechenbar</th>
+            <th>Vertrag</th>
+            <th>Auftrag</th>
+            <th>verfügbare Arbeitstage</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table></p> 
+
+        <p><table id="Prognose" border="1">
+        <tr>
+            <th>nicht abrechenbar</th>
+            <th>Vertrag</th>
+            <th>Auftrag</th>
+            <th>verfügbare Arbeitstage</th>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>3</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+    </table></p>
+
+<script>
+    var data = {
+    "gebuchte Zeiten letzter Monat": { 
+        "headers": ["nicht abrechenbar", "Vertrag", "Auftrag", "verfügbare Arbeitstage"], 
+        "rows": [ ["20", "19", "18", "17"] ] 
+    }, 
+    "gebuchte Zeiten dieser Monat": { 
+        "headers": ["nicht abrechenbar", "Vertrag", "Auftrag", "verfügbare Arbeitstage"], 
+        "rows": [ ["1", "2", "3", "4"] ] 
+    }, 
+    "Prognose": {
+        "headers": ["nicht abrechenbar", "Vertrag", "Auftrag", "verfügbare Arbeitstage"], 
+        "rows": [ ["9", "3", "1", "0"] ] 
+    }        
+  };
+  
+  var myJSON = JSON.stringify(data);
+  console.log(myJSON);
+</script>
+
+</body>
+
+</html>
+
