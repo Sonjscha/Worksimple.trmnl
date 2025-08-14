@@ -1,21 +1,21 @@
 {"data": {
     "parts": [
         {
-           "title"": "gebuchte Zeiten letzter Monat",
+           "title": "gebuchte Zeiten letzter Monat",
             "nicht abrechenbar": 20, 
             "Vertrag": 19, 
             "Auftrag": 18, 
             "verfügbare Arbeitstage": 17
         },
         {
-           "title"": "gebuchte Zeiten dieser Monat",
+           "title": "gebuchte Zeiten dieser Monat",
             "nicht abrechenbar": 1, 
             "Vertrag": 2, 
             "Auftrag": 3, 
             "verfügbare Arbeitstage": 4
         },
         {
-           "title"": "Prognose",
+           "title": "Prognose",
             "nicht abrechenbar": 1.00, 
             "Vertrag": 1.15, 
             "Auftrag": 1.30, 
