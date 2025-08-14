@@ -1,17 +1,28 @@
 {"data": {
-    "gebuchte Zeiten letzter Monat": { 
-        "headers": ["nicht abrechenbar", "Vertrag", "Auftrag", "verfügbare Arbeitstage"], 
-        "rows": [ ["20", "19", "18", "17"] ] 
-    }, 
-    "gebuchte Zeiten dieser Monat": { 
-        "headers": ["nicht abrechenbar", "Vertrag", "Auftrag", "verfügbare Arbeitstage"], 
-        "rows": [ ["1", "2", "3", "4"] ] 
-    }, 
-    "Prognose": {
-        "headers": ["nicht abrechenbar", "Vertrag", "Auftrag", "verfügbare Arbeitstage"], 
-        "rows": [ ["9", "3", "1", "0"] ] 
-    }        
-  }
+    "parts": [
+        {
+           "title"": "gebuchte Zeiten letzter Monat",
+            "nicht abrechenbar": 20, 
+            "Vertrag": 19, 
+            "Auftrag": 18, 
+            "verfügbare Arbeitstage": 17
+        },
+        {
+           "title"": "gebuchte Zeiten dieser Monat",
+            "nicht abrechenbar": 1, 
+            "Vertrag": 2, 
+            "Auftrag": 3, 
+            "verfügbare Arbeitstage": 4
+        },
+        {
+           "title"": "Prognose",
+            "nicht abrechenbar": 1.00, 
+            "Vertrag": 1.15, 
+            "Auftrag": 1.30, 
+            "verfügbare Arbeitstage": 1.45
+        },
+    ] 
+}
 }
 
-  
+   
