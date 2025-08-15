@@ -1,5 +1,5 @@
-{"data": {
-    "parts": [
+{
+    "data": [
         {
            "title": "gebuchte Zeiten letzter Monat",
             "nicht abrechenbar": 20, 
@@ -22,7 +22,6 @@
             "verfügbare Arbeitstage": 1.45
         },
     ] 
-}
 }
 
    
