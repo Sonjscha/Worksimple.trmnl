@@ -1,3 +1,3 @@
-{"parts":[{"title":"Letzter Monat","nichtAbrechenbar": 20,"Vertrag": 19,"Auftrag": 18,"verfügbareArbeitstage": 17},{"title": "Dieser Monat","nichtAbrechenbar": 1,"Vertrag": 2, "Auftrag": 3,"verfügbareArbeitstage": 4},{"title": "Prognose","nichtAbrechenbar": 1.00,"Vertrag": 1.15,"Auftrag": 1.30,"verfügbareArbeitstage": 1.45}]}
+{"data":{"parts":[{"title":"Letzter Monat","nichtAbrechenbar": 20,"Vertrag": 19,"Auftrag": 18,"verfügbareArbeitstage": 17},{"title": "Dieser Monat","nichtAbrechenbar": 1,"Vertrag": 2, "Auftrag": 3,"verfügbareArbeitstage": 4},{"title": "Prognose","nichtAbrechenbar": 1.00,"Vertrag": 1.15,"Auftrag": 1.30,"verfügbareArbeitstage": 1.45}]}}
 
    
